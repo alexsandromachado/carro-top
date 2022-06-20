@@ -1,24 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
-a, a:hover {
-    text-decoration: none;
-    color: unset;
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    margin: 10px;
+  outline: none;
+  box-shadow: none;
+  margin: 10px;
 }
 
 .navbar-toggler {
@@ -29,4 +35,36 @@ a, a:hover {
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,40,95,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   border: none;
+}
+
+.btn {
+  background-color: #00285f;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #00285f;
+  color: #fff;
+  border: none;
+  box-shadow: none !important;
+}
+
+.btn-primary:focus {
+  background-color: #00285f;
+  color: #fff;
+  border: none;
+  box-shadow: none !important;
+}
+
+.btn-primary:active {
+  background-color: #00285f;
+  color: #fff;
+  border: none;
+  box-shadow: none !important;
+}
+
+.basic-card {
+  border-radius: 10px;
 }

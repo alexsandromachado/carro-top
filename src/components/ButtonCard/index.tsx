@@ -3,7 +3,7 @@ import "./styles.css";
 const ButtonCard = () => {
   return (
     <>
-      <div className="main-card-container">
+      <div className="basic-card main-card-container">
         <button type="button" className="btn btn-primary">
           VER CATÁLOGO
         </button>

@@ -1,0 +1,38 @@
+.main-search-container {
+  background-color: #ededed;
+  padding: 41px 20px;
+  height: 123px;
+  align-items: center;
+}
+
+.form-control {
+  margin-bottom: 0px;
+}
+
+.input-group-text {
+  padding: 11px 60px;
+}
+
+.input-search {
+  color: #00285f;
+  font-size: 14px;
+  height: 40px;
+}
+
+.input-group-text {
+  background-color: #00285f;
+  color: #ffffff;
+  height: 40px;
+  font-size: 14px;
+}
+
+.form-control::placeholder {
+  color: #a7a7a7;
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .main-search-container {
+    padding: 41px 97px;
+  }
+}

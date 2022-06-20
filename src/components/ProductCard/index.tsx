@@ -1,12 +1,12 @@
-import { ReactComponent as MainImage } from 'assets/images/car-img.svg';
+import { ReactComponent as MainImage } from "assets/images/car-img.svg";
 import "./styles.css";
 
 const ProductCard = () => {
   return (
     <>
-      <div className="main-container">
+      <div className="basic-card main-container">
         <div className="image-container">
-            <MainImage />
+          <MainImage />
         </div>
         <div className="text-container">
           <h1>O carro perfeito para você</h1>

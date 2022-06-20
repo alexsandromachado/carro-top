@@ -1,0 +1,25 @@
+.main-card {
+  background-color: #ededed;
+  margin-top: 30px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.content-card h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content-card p {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 14px 0px 38px 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+}

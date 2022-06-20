@@ -1,0 +1,9 @@
+.catalog-container {
+  padding: 30px 20px;
+}
+
+@media (min-width: 1200px) {
+  .catalog-container {
+    padding: 30px 150px;
+  }
+}
