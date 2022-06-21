@@ -10,8 +10,7 @@
 }
 
 .image-container {
-padding: 0px 10px;
-border: 1px solid red;
+  padding: 0px 10px;
 }
 
 .image-container svg {
@@ -26,7 +25,6 @@ border: 1px solid red;
   justify-content: center;
   padding-top: 20px 30px 0px 30px;
   color: #fff;
-
 }
 
 .text-container p {
@@ -34,8 +32,6 @@ border: 1px solid red;
   font-weight: 400;
   max-width: 250px;
   padding: 0px 10px;
-  border: 1px solid red;
-
 }
 
 .text-container h1 {
@@ -43,12 +39,9 @@ border: 1px solid red;
   font-weight: 700;
   max-width: 450px;
   margin-bottom: 5px;
-  border: 1px solid red;
-
 }
 
 @media (min-width: 576px) {
-
   .main-container {
     padding: 22px 0 40px 0;
   }
