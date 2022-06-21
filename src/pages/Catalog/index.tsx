@@ -8,19 +8,19 @@ const Catalog = () => {
       <div className="catalog-container">
         <SearchCard />
         <div className="row">
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-lg-4">
             <CatalogCard />
           </div>
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-lg-4">
             <CatalogCard />
           </div>
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-lg-4">
             <CatalogCard />
           </div>
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-lg-4">
             <CatalogCard />
           </div>
-          <div className="col-sm-6 col-xl-4">
+          <div className="col-sm-6 col-lg-4">
             <CatalogCard />
           </div>
         </div>
