@@ -3,25 +3,31 @@
   padding: 40px 0px;
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   align-content: center;
   height: 123px;
 }
 
 .main-card-container p {
-  margin-left: 0px;
-  padding: 0px 35px 0px 35px;
-  font-size: 18px;
+  margin: 0px;
+  min-width: 150px;
+  padding: 0px 10px 0px 10px;
+  font-size: 14px;
 }
 
 .main-card-container button {
-  padding: 12px 35px 12px 35px;
+  margin-left: 10px;
+  padding: 12px 0px 12px 0px;
   max-width: 174px;
 }
 
 @media (min-width: 576px) {
   .main-card-container p {
     padding: 0px 0px 0px 35px;
+  }
+
+  .main-card-container p {
+    font-size: 18px;
   }
 }
 
